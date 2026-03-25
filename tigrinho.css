@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;/*evita que os elementos aumente de tamanho inesperadamente facilitando o controle da responsividade*/
-
+    list-style: none;
 }
 
 /*estilizando o header*/
@@ -65,5 +65,44 @@
 }
 
 .div-02{
+    padding: 10rem;
+    width: 25%;
+    height: 25rem;
+    min-width: 299px;
+    background-image: url(imagens/tigrinho.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background: linear-gradient(180deg, #01021064 8.33%, rgba(7, 15, 28, 0.745) 100%), url(imagens/tigrinho.jpg); */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+/*aqui estamos estilizando as listas*/
+.ul-div01 li a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    
+}
 
+.ul-div01 li{
+    margin: 5px 5px; /*alterando os 4 lados externos dos elementos, primeiro valor (superior, inferior) e segundo valor(laterais esqueda e direita)*/
+}
+
+.fa-cash-app, .fa-cc-mastercard{
+    color: rgb(0, 0, 0);
+    font-size: 2.3rem;
+
+
+}
+
+.fa-cash-app:hover, .fa-cc-mastercard:hover{
+    background-color: white;
+    transition: 0.8;
 }
