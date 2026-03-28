@@ -100,7 +100,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   flex-direction: column;
+    flex-direction: column;
     gap: 15px;
 }
 
@@ -126,59 +126,132 @@
     color: rgb(0, 0, 0);
     font-size: 2.3rem;
     margin-right: 100px;
-    
+
 }
 
 .fa-cash-app:hover,
 .fa-cc-mastercard:hover {
-     color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     transition: 0.8;
 }
 
-.img-div{
-    padding: 7%;/*preenchimento interno*/
-    background-image: url(imagens/alalal\ \(1\).jpg) ;/*caminho da img*/
-    background-position: center;/*posicionamento da img*/
-    background-size: cover;/*preenchimento total da img na caixa*/
+.img-div {
+    padding: 7%;
+    /*preenchimento interno*/
+    background-image: url(imagens/alalal\ \(1\).jpg);
+    /*caminho da img*/
+    background-position: center;
+    /*posicionamento da img*/
+    background-size: cover;
+    /*preenchimento total da img na caixa*/
 }
 
-.section-2{
-    display: flex;/*tornando flex/lado lado*/
-    justify-content: center;/*alinhamento vertical*/
-    align-items: center;/*alinhamento vertical*/
-    gap: 1.5rem;/*brecha entre as caixas*/
-    padding: 5rem;/*preenchimento interno*/
-    background-color: #050505;/*copr de fundo*/
-    flex-wrap: wrap;/*caso necessario vc quebra as caixas*/
-    
+.section-2 {
+    display: flex;
+    /*tornando flex/lado lado*/
+    justify-content: center;
+    /*alinhamento vertical*/
+    align-items: center;
+    /*alinhamento vertical*/
+    gap: 1.5rem;
+    /*brecha entre as caixas*/
+    padding: 5rem;
+    /*preenchimento interno*/
+    background-color: #050505;
+    /*copr de fundo*/
+    flex-wrap: wrap;
+    /*caso necessario vc quebra as caixas*/
+
 }
 
-.caixa{
-    width: 25%; /*largura da caixa*/
-    height: 22rem;/*altura da caixa*/
-    background-color: rgb(156, 17, 17);/*cor de fundo*/
-    min-width: 299px;/*largura minima da div*/
-    font-size: 1.2rem;/*tamanho das letras*/
-    color: white;/*cor dos textos*/
-    box-shadow: 10px 10px 20px rgba(245, 222, 179, 0.354);/*sombra externa das caixas*/
-    cursor: pointer;/*ao passar o cursor aparece uma mao de clicar*/
+.caixa {
+    width: 25%;
+    /*largura da caixa*/
+    height: 22rem;
+    /*altura da caixa*/
+    background-color: rgb(156, 17, 17);
+    /*cor de fundo*/
+    min-width: 299px;
+    /*largura minima da div*/
+    font-size: 1.2rem;
+    /*tamanho das letras*/
+    color: white;
+    /*cor dos textos*/
+    box-shadow: 10px 10px 20px rgba(245, 222, 179, 0.354);
+    /*sombra externa das caixas*/
+    cursor: pointer;
+    /*ao passar o cursor aparece uma mao de clicar*/
 }
 
-.caixa:hover{
-    box-shadow: 12px 12px 22px rgba(245, 222, 179, 0.557) ;
+.caixa:hover {
+    box-shadow: 12px 12px 22px rgba(245, 222, 179, 0.557);
     transition: 0.8s;
 }
 
-.section-3{
-    display: flex;/*tornando flex/lado lado*/
-    justify-content: center;/*alinhamento vertical*/
-    align-items: center;/*alinhamento vertical*/
-    gap: 1.5rem;/*brecha entre as caixas*/
-    padding: 5rem;/*preenchimento interno*/
-    background-color: #050505;/*copr de fundo*/
-    flex-wrap: wrap;/*caso necessario vc quebra as caixas*/
+.section-3 {
+    display: flex;
+    /*tornando flex/lado lado*/
+    justify-content: center;
+    /*alinhamento vertical*/
+    align-items: center;
+    /*alinhamento vertical*/
+    gap: 1.5rem;
+    /*brecha entre as caixas*/
+    padding: 5rem;
+    /*preenchimento interno*/
+    background-color: #050505;
+    /*copr de fundo*/
+    flex-wrap: wrap;
+    /*caso necessario vc quebra as caixas*/
 }
+
 /*classes primarias para a estilização*/
-.div-3, .div-4{
-    height: 15rem;/*altura das caixas*/
+.div-3,
+.div-4 {
+    height: 15rem;
+    /*altura das caixas*/
+    padding: 1rem;
+    text-align: center;
+}
+
+.content-text {
+    text-align: start;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-3 i {
+    color: rgb(78, 46, 46);
+    font-size: 2rem;
+    margin-top: 1.3rem;
+}
+
+.button-div4 a button {
+    padding: 0.5rem;
+    background-color: #3b0000;
+    color: white;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.section-4 {
+    display: flex;
+    /*tornando flex/lado lado*/
+    justify-content: center;
+    /*alinhamento vertical*/
+    align-items: center;
+    /*alinhamento vertical*/
+    gap: 1.5rem;
+    /*brecha entre as caixas*/
+    padding: 5rem;
+    /*preenchimento interno*/
+    background-color: #050505;
+    /*copr de fundo*/
+    flex-wrap: wrap;
+    /*caso necessario vc quebra as caixas*/
+}
+
+.caixa2{
+    background-color: #950904;
 }
