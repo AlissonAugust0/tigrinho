@@ -206,12 +206,12 @@
 }
 
 /*classes primarias para a estilização*/
-.div-3,
-.div-4 {
-    height: 15rem;
+.div-3, .div-4 {
+    height: 7rem;
     /*altura das caixas*/
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
+    margin-top: 70px;
 }
 
 .content-text {
@@ -252,6 +252,225 @@
     /*caso necessario vc quebra as caixas*/
 }
 
-.caixa2{
-    background-color: #950904;
+.caixa {
+    width: 25%;
+    height: 22rem;
+    background-color: rgb(221, 3, 3);
+    min-width: 299px;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 10px 10px 20px rgb(167, 167, 167);
+    
+}
+
+.caixa:hover {
+    box-shadow: 15px 15px 25px rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+.div03, .div04 {
+    height: 15rem;
+    text-align: center;
+}
+
+.section-03 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   padding: 5rem ;
+   background-color: black;
+   flex-wrap: wrap;
+}
+
+.content-text {
+    text-align: start; /*Alinhando os textos ao inicio*/
+    margin: 1rem; /*espaçamento em torno da caixa*/
+    color: aliceblue; /*cor do texto*/
+    font-weight: 500;/*peso da font*/
+
+}
+
+.icon-div03 {
+    color: rgb(155, 152, 152); /*cores do icon*/
+    font-size: 3rem; /*tamanho dos icon*/
+    margin-top: 1.2rem;/*espaçamento superior dos icon */
+}
+
+/* inicio formatação caixa 02 da section03 */
+
+.button-div04 a button {
+    padding: 0.5rem;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.text-div04 p {
+    color: aliceblue;
+}
+
+.batata {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+}
+
+.social-media {
+    padding: 1.5rem;
+}
+
+.social-media i {
+    font-size: 2em;
+    color: white;
+    transition: 0.8s;
+    margin: 0.5em;
+}
+
+.social-media i:hover {
+    font-size: 2.1em;
+    color: rgba(255, 255, 255, 0.46);
+}
+
+.line {
+    width: 60%;
+    margin: 0.5em auto;
+
+}
+
+.line-strong {
+    margin: 2rem auto;
+    width: 70%;
+
+}
+
+.div-list ul li {
+    list-style: none;
+    margin-top: 1em;
+}
+
+.div-list ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.407);
+    transition: 0.8s;
+}
+
+.div-list ul li a:hover {
+    color: rgba(255, 255, 255, 0.552);
+
+}
+
+.rodape {
+    background-color: #000000fd;
+    color: rgba(255, 255, 255, 0.267);
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+.caixa1{
+    background-image: url(imagens/roleta\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.titulo-caixa2{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+
+}
+
+.paragrafo-div2{
+    text-align: center;
+    font-size: 1,3rem;
+}
+ 
+.caixa3 img{
+    width: 100%;
+    height: 50%;
+}
+
+.caixa3 p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.caixa6 img{
+    width: 100%;
+}
+
+.caixa6 p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+.caixa7 img{
+    width: 100%;
+    height: 50%;
+}
+
+.caixa7 p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+.caixa8 img{
+    width: 100%;
+    height: 50%;
+}
+
+.caixa8 p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+.whatsapp img{
+    width: 50px;
+}
+
+.whatsapp{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.whatsapp img:hover{
+    width: 60px;
+    transition: 0.8s;
 }
