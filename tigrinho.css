@@ -87,6 +87,10 @@
     /*definindo uma largura minima*/
 }
 
+.div-01 p{
+    font-size: 1.3rem;
+}
+
 .div-02 {
     padding: 10rem;
     width: 25%;
@@ -260,6 +264,7 @@
     font-size: 1.2rem;
     color: white;
     box-shadow: 10px 10px 20px rgb(167, 167, 167);
+    border-radius: 20px;
     
 }
 
