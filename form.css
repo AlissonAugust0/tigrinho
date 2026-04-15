@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background: linear-gradient(90deg, #1e3c72 0%, #2a0845 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa{
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
+.input-grup{
+    margin: 2rem;
+}
+
+.input-grup label{
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-grup input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-grup input:focus{
+    border-color: #171430;
+    box-shadow: 0 0 5px #555;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+    font-size: 0.8rem;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.entrar{
+    text-align: center;
+}
+
+.entrar input{
+    width: 15rem;
+    margin-bottom: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    height: 1.5rem;
+}
+
+.google-btn img{
+    width: 5%;
+}
+
+.google-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 70px;
+}
+
+
+
